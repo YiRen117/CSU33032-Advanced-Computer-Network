@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+<body>
+    <a href="/files">Visit File List</a>
+    <h3>Your groups</h3>
+    <ul>
+        {% for group in groups %}
+        <li>{{ group }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Groups you are managing</h3>
+    <ul>
+        {% for group in adminGroups %}
+        <li>{{ group }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Create Group</h3>
+    <form action="/create">
+        <label>Group name: </label>
+        <input type="text" id="createGroup" name="createGroup">
+        <button type="submit">Create</button>
+    </form>
+
+    <h3>Delete Group</h3>
+    <form action="/delete">
+        <label>Group name: </label>
+        <select name="deleteGroup" id="deleteGroup">
+            {% for group in adminGroups %}
+            <option value="{{ group }}">{{ group }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Delete</button>
+    </form>
+
+    <h3>Add User to Group</h3>
+    <form action="/add">
+        <select name="addUser" id="addUser">
+            {% for user in users %}
+            <option value="{{ user }}">{{ user }}</option>
+            {% endfor %}
+        </select>
+        <select name="addGroup" id="addGroup">
+            {% for group in adminGroups %}
+            <option value="{{ group }}">{{ group }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Add</button>
+    </form>
+
+    <h3>Remove User from Group</h3>
+    <form action="/remove">
+        <select name="removeUser" id="removeUser">
+            {% for user in users %}
+            <option value="{{ user }}">{{ user }}</option>
+            {% endfor %}
+        </select>
+        <select name="removeGroup" id="removeGroup">
+            {% for group in adminGroups %}
+            <option value="{{ group }}">{{ group }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Remove</button>
+    </form>
+
+    <h3>Exit from Group</h3>
+    <form action="/exit">
+        <select name="exitGroup" id="exitGroup">
+            {% for group in otherGroups %}
+            <option value="{{ group }}">{{ group }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Exit</button>
+    </form>
+
+    <h3>Change manager for Group</h3>
+    <form action="/change">
+        <select name="newManager" id="newManager">
+            {% for user in users %}
+            <option value="{{ user }}">{{ user }}</option>
+            {% endfor %}
+        </select>
+        <select name="changedGroup" id="changedGroup">
+            {% for group in adminGroups %}
+            <option value="{{ group }}">{{ group }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Change</button>
+    </form>
+
+    <h3>Upload file</h3>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        {% csrf_token %}{{form.as_p}}
+        <div class="upload_form">
+                <input type="file" value="{{fileUpload}}" id="fileUpload" name="fileUpload"/>
+        </div>
+        <div class="upload_form">
+            <label>Post to: </label>
+            <select name="postGroup" id="postGroup">
+                {% for group in groups %}
+                <option value="{{ group }}">{{ group }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crypto Login</title>
+  <style type="text/css">
+  body {
+    background-color: white
+  }
+  .container {
+  margin-top: 280px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+div {
+  padding: 10px;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+      <form action="/submit" method="post">
+        <div class="user">
+      {% csrf_token %}
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+    </div>
+    <div class="pass">
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+    </div>
+    <button type="submit">Login</button>
+    </form>
+    <input type="submit" value="Create User"
+    onclick="window.location='/createuser';" />
+  </div>
+</body>
+</html>

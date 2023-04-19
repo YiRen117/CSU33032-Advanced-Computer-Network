@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Board</title>
+</head>
+<!--    {% for file in allFiles %}-->
+<!--    <label>Group: {{ file.groupName }}</label><br>-->
+<!--    <label>Post by: {{ file.uploader }}</label><br>-->
+<!--    <textarea id={{ file.filename }} rows="10" cols="50">{{ file.content }}</textarea><br>-->
+<!--    <a href="/deletefile/{{ file.filename }}"><button>Delete file</button></a><br><br>-->
+<!--    {% endfor %}-->
+
+<body>
+    <h3>Your files</h3>
+    <ul>
+        {% for file in files %}
+        <li>
+            <label>File Name: {{ file.filename }}</label><br>
+            <label>Group: {{ file.groupName }}</label><br>
+            <label>Post by: {{ file.uploader }}</label><br>
+            <form action="/deletefile/{{ file.groupName }}/{{ file.filename }}">
+                <button type="submit">Delete</button>
+            </form>
+            <form action="/download/{{ file.groupName }}/{{ file.filename }}">
+                <button type="submit">Download</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

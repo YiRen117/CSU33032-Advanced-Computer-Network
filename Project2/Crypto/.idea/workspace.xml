@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52d23c62-be15-43c5-9051-de6d81d28a27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crypto/static/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/Site/encryption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/migrations/0002_auto_20200318_1742.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/migrations/0003_auto_20200318_1746.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/migrations/0004_control.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/migrations/0005_message_poster.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/migrations/0006_auto_20200318_2010.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/Site/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/system.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/Site/system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/Site/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/Site/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/Site/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/crypto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/crypto/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/static/messages.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZJIfmaD7LvHpPMwGNELWUh2K9v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kitch\Desktop\Crypto\crypto" />
+      <recent name="C:\Users\kitch\Desktop\Crypto\crypto\Site" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kitch\Dropbox\College\Year 3\Advanced Telecommunications\Assignment 2\Crypto\crypto\Site" />
+      <recent name="C:\Users\kitch\Desktop\Crypto\crypto\Site" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Crypto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crypto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crypto/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52d23c62-be15-43c5-9051-de6d81d28a27" name="Default Changelist" comment="" />
+      <created>1584550875474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584550875474</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584881831269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584881831269" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584881711781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584881711781" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1585566110698">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584984410929" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585566110698" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1585566110698">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584984410929" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585566110698" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1585566110697">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584984410928" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585566110697" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1585566110698">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584984410929" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585566110698" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584881872552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584881872552" />
+    <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584564614864" />
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585245939472">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584706637893" />
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585245939472" />
+    <state x="708" y="361" key="search.everywhere.popup" timestamp="1584551509331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="361" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584551509331" />
+  </component>
+</project>
